@@ -60,6 +60,9 @@ jobs:
           MONGODB_URI: mongodb://localhost:27017/test_findintown
           JWT_SECRET: test_jwt_secret_key_for_testing
           NODE_ENV: test
+          GOOGLE_CLIENT_ID: test_client_id
+          GOOGLE_CLIENT_SECRET: test_client_secret
+          GOOGLE_CALLBACK_URL: http://localhost:3000/auth/google/callback
 
   deploy-frontend:
     name: Deploy frontend to GitHub Pages
