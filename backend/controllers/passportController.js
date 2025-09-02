@@ -21,7 +21,7 @@ exports.googleCallback = [
     // You can return the token in the response
     // res.json({ token }); 
     // We can also return as URL (better for frontend)
-    res.redirect(`http://localhost:5173/home?token=${token}`);
+    res.redirect(`https://danielemattuzzi.github.io/FindTest/home?token=${token}`);
   }
 ];
 
