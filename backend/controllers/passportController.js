@@ -18,8 +18,8 @@ exports.googleCallback = [
       expiresIn: '1d'
     });
 
-    // Use environment variable for frontend URL or fallback to deployed URL
-    const frontendUrl = process.env.FRONTEND_URL || 'https://danielemattuzzi.github.io/FindTest';
+    // Force production frontend URL
+    const frontendUrl = 'https://danielemattuzzi.github.io/FindTest';
     
     // You can return the token in the response
     // res.json({ token }); 
